@@ -1,0 +1,32 @@
+# 1. 가상환경 (제일 중요! 절대 올리면 안 됨)
+venv/
+.venv/
+env/
+ENV/
+
+# 2. 파이썬 임시 파일 (컴파일된 찌꺼기들)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 3. 환경 변수 및 비밀번호 파일 (해킹 방지)
+.env
+.env.local
+
+# 4. VS Code 설정 파일 (내 컴퓨터 설정이 남한테 가면 안 됨)
+.vscode/
+
+# 5. 로그 파일
+*.log
+
+# 6. 운영체제 찌꺼기 (윈도우/맥)
+Thumbs.db
+.DS_Store
+
+# 7. 배포/빌드 관련
+dist/
+build/
+*.egg-info/
+
+# 8. ROS 관련 (혹시 몰라서 추가)
+log/
